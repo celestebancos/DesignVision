@@ -58,18 +58,30 @@ HEADER
 ********************************/
 
 #title {
+<<<<<<< HEAD
 	font-family: 'Alegreya Sans SC'; 
 	font-size: 27pt;
+=======
+	font-size: 24pt;
+>>>>>>> ClaudiuBancos/master
 	font-weight: 400;
 	color: dimgray;
+	letter-spacing: .02em;
 }
 
 #sub-title {
+<<<<<<< HEAD
 	font-family: 'Alegreya Sans SC'; 
 	font-size: 14pt;
 	font-weight: 300;
 	color: gray;
 	letter-spacing: .1em;
+=======
+	font-size: 14pt;
+	font-weight: 300;
+	color: dimgray;
+	letter-spacing: .07em;
+>>>>>>> ClaudiuBancos/master
 }
 
 .divider {
@@ -80,7 +92,16 @@ nav {
 	margin-top: 20px;
 	display: flex;
 	justify-content: space-between;
+<<<<<<< HEAD
+=======
+	font-size: 15px;
+	letter-spacing: .02em;
+>>>>>>> ClaudiuBancos/master
 } 
+
+.thin-margin-header nav {
+	margin-right: 8px;
+}
 
 nav a, nav a:visited {
 	color: gray;
@@ -121,11 +142,12 @@ footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	margin-bottom: 5px;
 }
 
 #houzz {
-	margin-top: 2%;
-	margin-bottom: 20px;
+	margin-top: 5px;
+	margin-bottom: 0;
 	text-align: center;
 }
 
@@ -174,8 +196,11 @@ PAGE: PORTFOLIO
 	width: 100%;
 	background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, .6) 100%);
 	color: white;
-	font-size: 16pt;
+	font-size: 10pt;
 	padding: 10px;
+/*	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;*/
 }
 
 /********************************
@@ -183,17 +208,54 @@ PAGE: PROJECT
 ********************************/
 
 .slick-gallery-container {
-	background: grey;
+	/*background: dimgrey;*/
+	background: #eee;
 	padding: 50px;
 }
 
 .small-images, .large-image {
 	max-width: 900px;
-	margin: 0 auto;
+	margin: 0 auto 30px;
 }
 
-.small-images img, .large-image img {
-	cursor: pointer;
+.large-image img {
+	margin-bottom: 5px;
+}
+
+.slick-prev:before, .slick-next:before {
+	color: transparent;  /*this makes the default arrow (which uses a font) invisible*/	
+	font-size: 30px;
+}
+
+.slick-prev, .slick-next {
+	width: 30px;
+	height: 30px;
+}
+
+.slick-prev {
+    left: -35px;
+}
+
+[dir='rtl'] .slick-prev {
+    right: -35px;
+    left: auto;
+}
+
+.slick-next {
+    right: -35px;
+}
+
+[dir='rtl'] .slick-next {
+    right: auto;
+    left: -35px;
+}
+
+.slick-prev:before {
+	background-image: url("../images/icons/left-arrow-black.svg");
+}
+
+.slick-next:before {
+	background-image: url("../images/icons/right-arrow-black.svg");
 }
 
 /********************************
@@ -210,6 +272,14 @@ PAGE: ABOUT
 
 .about-block img {
 	width: 100%;
+<<<<<<< HEAD
+=======
+}
+
+.about-block p {
+	font-size: 10pt;
+	color: black;
+>>>>>>> ClaudiuBancos/master
 }
 
 /********************************

@@ -1,20 +1,32 @@
 /* Medium Screen */
-@media screen and (min-width: 480px) {
+@media (min-width: 480px) {
 	#title {
-		font-size: 36pt;
+		/*font-size: 36pt;*/
 	}
 
 	nav {
+<<<<<<< HEAD
 		/*font-size: 12pt;*/
+=======
+		font-size: 20px;
+>>>>>>> ClaudiuBancos/master
 	}
 
 	.contact-info {
 		display: flex;
 		justify-content: space-between;
+<<<<<<< HEAD
+=======
+	}
+
+	.small-images img {
+		cursor: pointer;
+		max-height: 120px;
+>>>>>>> ClaudiuBancos/master
 	}
 }
 
-@media screen and (min-width: 480px) and (max-width: 899px) {
+@media (min-width: 480px) and (max-width: 899px) {
 	#gallery a {
 		width: 50%;
 	}
@@ -23,6 +35,11 @@
 		width: 50%;
 	}
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> ClaudiuBancos/master
 /*	#contact-text {
 		flex-direction: row;
 	}
@@ -34,9 +51,15 @@
 
 /* Navigation Menu Breakpoint */
 
+<<<<<<< HEAD
 @media screen and (min-width: 630px){
 	nav {
 		margin-top: -24px;
+=======
+@media (min-width: 630px){
+	nav {
+		margin-top: -20px;
+>>>>>>> ClaudiuBancos/master
 		justify-content: flex-end;
 	}
 
@@ -94,7 +117,7 @@
 
 /* Large Screen */
 
-@media screen and (min-width: 900px) {
+@media (min-width: 900px) {
 	#gallery a {
 		width: 33.3333333%;
 	}
@@ -138,9 +161,15 @@
 
 	.contact-image {
 		padding-top: 20px;
+<<<<<<< HEAD
 		width: 48%;
 		max-width: 48%;
 		margin-left: 10%;
+=======
+		width: 47%;
+		max-width: 630px;
+		/*margin-left: 10%;*/
+>>>>>>> ClaudiuBancos/master
 		margin-bottom: 20px;
 		padding-right: 0;
 		height: auto;
@@ -149,8 +178,13 @@
 
 	.contact-image img {
 		display: block;
+<<<<<<< HEAD
 		width: 280px;
 		height: 210px;
+=======
+		/*width: 280px;
+		height: 210px;*/
+>>>>>>> ClaudiuBancos/master
 		margin: 0 auto;
 	}
 
@@ -168,7 +202,11 @@
 	}*/
 }
 
+<<<<<<< HEAD
 @media screen and (min-width: 1024px) {
+=======
+@media (min-width: 1024px) {
+>>>>>>> ClaudiuBancos/master
 
 /* HEADER ON LARGEST SCREEN SIZE */
 
@@ -177,7 +215,11 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+<<<<<<< HEAD
 		margin-top: 2px;
+=======
+		margin-top: 0;
+>>>>>>> ClaudiuBancos/master
 		margin-bottom: 2px;
 	}
 
@@ -187,6 +229,7 @@
 		flex-direction: row;
 	}
 
+<<<<<<< HEAD
 	.divider {
 		display: block;
 		font-size: 2em;
@@ -204,17 +247,43 @@
 
 	nav {
 		margin-top: 18px;
+=======
+	#title {
+		font-size: 21pt;
+	}
+
+	#sub-title {
+		font-size: 21pt;
+		margin-left: 40px;
+	}
+
+	nav {
+		margin-top: 12px;
+		font-size: 18px;
+	}
+
+	.thin-margin-header nav {
+		margin-top: 10px;
+>>>>>>> ClaudiuBancos/master
 	}
 
 	/* CONTACT PAGE ON LARGEST SCREEN SIZE */
 
 	.contact-content {
+<<<<<<< HEAD
 		max-width: 1400px;
+=======
+		max-width: 1300px;
+>>>>>>> ClaudiuBancos/master
 	}
 
 	.contact-text,
 	.contact-image {
+<<<<<<< HEAD
 		max-width: 600px;
+=======
+		max-width: 630px;
+>>>>>>> ClaudiuBancos/master
 	}
 
 	.form-and-map {
@@ -225,7 +294,25 @@
 
 	#form,
 	.map {
+<<<<<<< HEAD
 		width: 45%;
 		max-width: 600px;
+=======
+		width: 47%;
+		max-width: 630px;
 	}
 }
+
+@media (min-width: 1100px) {
+	#title {
+		font-size: 23pt;
+	}
+
+	#sub-title {
+		font-size: 23pt;
+	}
+
+	nav {
+		font-size: 20px;
+>>>>>>> ClaudiuBancos/master
+	}
