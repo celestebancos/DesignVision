@@ -58,30 +58,17 @@ HEADER
 ********************************/
 
 #title {
-<<<<<<< HEAD
-	font-family: 'Alegreya Sans SC'; 
-	font-size: 27pt;
-=======
 	font-size: 24pt;
->>>>>>> ClaudiuBancos/master
 	font-weight: 400;
 	color: dimgray;
 	letter-spacing: .02em;
 }
 
 #sub-title {
-<<<<<<< HEAD
-	font-family: 'Alegreya Sans SC'; 
-	font-size: 14pt;
-	font-weight: 300;
-	color: gray;
-	letter-spacing: .1em;
-=======
 	font-size: 14pt;
 	font-weight: 300;
 	color: dimgray;
 	letter-spacing: .07em;
->>>>>>> ClaudiuBancos/master
 }
 
 .divider {
@@ -92,11 +79,8 @@ nav {
 	margin-top: 20px;
 	display: flex;
 	justify-content: space-between;
-<<<<<<< HEAD
-=======
 	font-size: 15px;
 	letter-spacing: .02em;
->>>>>>> ClaudiuBancos/master
 } 
 
 .thin-margin-header nav {
@@ -272,14 +256,11 @@ PAGE: ABOUT
 
 .about-block img {
 	width: 100%;
-<<<<<<< HEAD
-=======
 }
 
 .about-block p {
 	font-size: 10pt;
 	color: black;
->>>>>>> ClaudiuBancos/master
 }
 
 /********************************
